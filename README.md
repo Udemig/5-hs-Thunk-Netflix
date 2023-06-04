@@ -1,7 +1,5 @@
 # Kullanılan Kütüphaneler
 
-apikey = 8eaaebf37afed9d87b1c4e581edba5b6
-
 - axios
 - @splidejs/react-splide
 - react-router-dom
