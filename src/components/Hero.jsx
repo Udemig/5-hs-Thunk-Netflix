@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 export const baseImgUrl = 'https://image.tmdb.org/t/p/original';
 
@@ -17,7 +18,10 @@ const Hero = () => {
         <p>{film?.overview}</p>
         <p className="text-warning">IMDB: {film?.vote_average}</p>
         <div className="d-flex justify-content-center gap-3">
-          <button className="btn btn-danger">Filmi İzle</button>
+          <Link className="btn btn-danger" to={`/movie/${film?.id}`}>
+            Filmi İzle
+          </Link>
+
           <button className="btn btn-info">Listeye Ekle</button>
         </div>
       </div>

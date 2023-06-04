@@ -24,3 +24,10 @@ apikey = 8eaaebf37afed9d87b1c4e581edba5b6
 - Storedaki her bir kategori için ekrana bir <ListMovies /> bas
 - List Movies bileşeninde hangi kategori varsa onunla alakalı film verisini çek
 - List Movies içerisinde Filmleri bir sliderda listele
+- Filmlerden birine tıklanırsa idsini içeren bir urlye yöndlendir
+- Film Detay Oluştur
+- - Urldeki parametreyi al
+- - O Prametreyi kullanarak ilgili filmin detay verisini çek
+- - Apiden gelen cevaba göre ekrana bilgileri listele
+
+<img src="screen.gif">
